@@ -4,7 +4,7 @@ import numpy as np
 
 #PROGRAMA DE CLASIFICACION DE OBJETOS PARA VIDEO EN DIRECCION IP 
 
-url = 'http://192.168.2.60/image'
+url = 'http://<use the ip given in the esp-32>/image'
 
 winName = 'ESP32 CAMERA'
 cv2.namedWindow(winName,cv2.WINDOW_AUTOSIZE)
